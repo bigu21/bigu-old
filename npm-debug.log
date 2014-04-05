@@ -1,0 +1,528 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'yeoman-meteor' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'yeoman-meteor', null ]
+5 verbose cache add name=undefined spec="yeoman-meteor" args=["yeoman-meteor",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'yeoman-meteor',
+6 verbose parsed url   path: 'yeoman-meteor',
+6 verbose parsed url   href: 'yeoman-meteor' }
+7 silly lockFile a7f58b05-yeoman-meteor yeoman-meteor
+8 verbose lock yeoman-meteor /Users/gbr/.npm/a7f58b05-yeoman-meteor.lock
+9 silly lockFile a7f58b05-yeoman-meteor yeoman-meteor
+10 silly lockFile a7f58b05-yeoman-meteor yeoman-meteor
+11 verbose addNamed [ 'yeoman-meteor', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 4773bc8a-yeoman-meteor yeoman-meteor@
+14 verbose lock yeoman-meteor@ /Users/gbr/.npm/4773bc8a-yeoman-meteor.lock
+15 silly addNameRange { name: 'yeoman-meteor', range: '*', hasData: false }
+16 verbose url raw yeoman-meteor
+17 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman-meteor' ]
+18 verbose url resolved https://registry.npmjs.org/yeoman-meteor
+19 info trying registry request attempt 1 at 22:38:11
+20 http GET https://registry.npmjs.org/yeoman-meteor
+21 http 200 https://registry.npmjs.org/yeoman-meteor
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Thu, 03 Apr 2014 01:38:08 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     etag: '"TK5JA0XK57A3KH0E41M1E9HD"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '3648',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-jfk1027-JFK',
+22 silly registry.get     'x-cache': 'MISS, MISS',
+22 silly registry.get     'x-cache-hits': '0, 0',
+22 silly registry.get     'x-timer': 'S1396489088.765511036,VS0,VS5,VE104,VE106',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'yeoman-meteor', range: '*', hasData: true }
+24 silly addNameRange versions [ 'yeoman-meteor', [ '0.0.5' ] ]
+25 verbose addNamed [ 'yeoman-meteor', '0.0.5' ]
+26 verbose addNamed [ '0.0.5', '0.0.5' ]
+27 silly lockFile dc932a3b-yeoman-meteor-0-0-5 yeoman-meteor@0.0.5
+28 verbose lock yeoman-meteor@0.0.5 /Users/gbr/.npm/dc932a3b-yeoman-meteor-0-0-5.lock
+29 silly lockFile 8fa07657-n-meteor-yeoman-meteor-0-0-5-tgz https://registry.npmjs.org/yeoman-meteor/-/yeoman-meteor-0.0.5.tgz
+30 verbose lock https://registry.npmjs.org/yeoman-meteor/-/yeoman-meteor-0.0.5.tgz /Users/gbr/.npm/8fa07657-n-meteor-yeoman-meteor-0-0-5-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/yeoman-meteor/-/yeoman-meteor-0.0.5.tgz',
+31 verbose addRemoteTarball   '1d3d4b69506dde3c86861c2574843c9cc4bea7b1' ]
+32 info retry fetch attempt 1 at 22:38:12
+33 verbose fetch to= /var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/tmp.tgz
+34 http GET https://registry.npmjs.org/yeoman-meteor/-/yeoman-meteor-0.0.5.tgz
+35 http 200 https://registry.npmjs.org/yeoman-meteor/-/yeoman-meteor-0.0.5.tgz
+36 verbose tar unpack /var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/tmp.tgz
+37 silly lockFile 6e78c4a6-92534-0-7984758436214179-package tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/package
+38 verbose lock tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/package /Users/gbr/.npm/6e78c4a6-92534-0-7984758436214179-package.lock
+39 silly lockFile c25726fe-92534-0-7984758436214179-tmp-tgz tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/tmp.tgz
+40 verbose lock tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/tmp.tgz /Users/gbr/.npm/c25726fe-92534-0-7984758436214179-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+46 silly gunzTarPerm extractEntry README.md
+47 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+48 silly gunzTarPerm extractEntry LICENSE
+49 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+50 silly gunzTarPerm extractEntry .meteor/.npmignore
+51 silly gunzTarPerm modified mode [ '.meteor/.npmignore', 438, 420 ]
+52 silly gunzTarPerm extractEntry .meteor/packages
+53 silly gunzTarPerm modified mode [ '.meteor/packages', 438, 420 ]
+54 silly gunzTarPerm extractEntry .meteor/release
+55 silly gunzTarPerm modified mode [ '.meteor/release', 438, 420 ]
+56 silly gunzTarPerm extractEntry model/index.js
+57 silly gunzTarPerm modified mode [ 'model/index.js', 438, 420 ]
+58 silly gunzTarPerm extractEntry model/templates/default.js
+59 silly gunzTarPerm modified mode [ 'model/templates/default.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry model/templates/_dummyCollection.js
+61 silly gunzTarPerm modified mode [ 'model/templates/_dummyCollection.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry model/templates/_dummyModel.js
+63 silly gunzTarPerm modified mode [ 'model/templates/_dummyModel.js', 438, 420 ]
+64 silly gunzTarPerm extractEntry model/templates/_dummyPublication.js
+65 silly gunzTarPerm modified mode [ 'model/templates/_dummyPublication.js', 438, 420 ]
+66 silly gunzTarPerm extractEntry model/templates/_dummySubscribtion.js
+67 silly gunzTarPerm modified mode [ 'model/templates/_dummySubscribtion.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry app/index.js
+69 silly gunzTarPerm modified mode [ 'app/index.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry app/templates/bowerrc
+71 silly gunzTarPerm modified mode [ 'app/templates/bowerrc', 438, 420 ]
+72 silly gunzTarPerm extractEntry app/templates/config.rb
+73 silly gunzTarPerm modified mode [ 'app/templates/config.rb', 438, 420 ]
+74 silly gunzTarPerm extractEntry app/templates/gitattributes
+75 silly gunzTarPerm modified mode [ 'app/templates/gitattributes', 438, 420 ]
+76 silly gunzTarPerm extractEntry app/templates/gitignore
+77 silly gunzTarPerm modified mode [ 'app/templates/gitignore', 438, 420 ]
+78 silly gunzTarPerm extractEntry app/templates/jshintrc
+79 silly gunzTarPerm modified mode [ 'app/templates/jshintrc', 438, 420 ]
+80 silly gunzTarPerm extractEntry app/templates/smart.lock
+81 silly gunzTarPerm modified mode [ 'app/templates/smart.lock', 438, 420 ]
+82 silly gunzTarPerm extractEntry app/templates/_bower.json
+83 silly gunzTarPerm modified mode [ 'app/templates/_bower.json', 438, 420 ]
+84 silly gunzTarPerm extractEntry app/templates/_package.json
+85 silly gunzTarPerm modified mode [ 'app/templates/_package.json', 438, 420 ]
+86 silly gunzTarPerm extractEntry app/templates/_smart.json
+87 silly gunzTarPerm modified mode [ 'app/templates/_smart.json', 438, 420 ]
+88 silly gunzTarPerm extractEntry private/users.yml
+89 silly gunzTarPerm modified mode [ 'private/users.yml', 438, 420 ]
+90 silly gunzTarPerm extractEntry client/compatibility/default.js
+91 silly gunzTarPerm modified mode [ 'client/compatibility/default.js', 438, 420 ]
+92 silly gunzTarPerm extractEntry client/config/accounts.js
+93 silly gunzTarPerm modified mode [ 'client/config/accounts.js', 438, 420 ]
+94 silly gunzTarPerm extractEntry client/config/router.js
+95 silly gunzTarPerm modified mode [ 'client/config/router.js', 438, 420 ]
+96 silly gunzTarPerm extractEntry client/lib/handlebar_helpers.js
+97 silly gunzTarPerm modified mode [ 'client/lib/handlebar_helpers.js', 438, 420 ]
+98 silly gunzTarPerm extractEntry client/modules/searchbar/searchbar.js
+99 silly gunzTarPerm modified mode [ 'client/modules/searchbar/searchbar.js', 438, 420 ]
+100 silly gunzTarPerm extractEntry client/modules/searchbar/searchbar.css
+101 silly gunzTarPerm modified mode [ 'client/modules/searchbar/searchbar.css', 438, 420 ]
+102 silly gunzTarPerm extractEntry client/modules/searchbar/searchbar.html
+103 silly gunzTarPerm modified mode [ 'client/modules/searchbar/searchbar.html', 438, 420 ]
+104 silly gunzTarPerm extractEntry client/routes/HomeRoute.js
+105 silly gunzTarPerm modified mode [ 'client/routes/HomeRoute.js', 438, 420 ]
+106 silly gunzTarPerm extractEntry client/startup/default.js
+107 silly gunzTarPerm modified mode [ 'client/startup/default.js', 438, 420 ]
+108 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_magellan.scss
+109 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_magellan.scss',
+109 silly gunzTarPerm   438,
+109 silly gunzTarPerm   420 ]
+110 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_alert-boxes.scss
+111 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_alert-boxes.scss',
+111 silly gunzTarPerm   438,
+111 silly gunzTarPerm   420 ]
+112 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_breadcrumbs.scss
+113 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_breadcrumbs.scss',
+113 silly gunzTarPerm   438,
+113 silly gunzTarPerm   420 ]
+114 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_button-groups.scss
+115 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_button-groups.scss',
+115 silly gunzTarPerm   438,
+115 silly gunzTarPerm   420 ]
+116 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_buttons.scss
+117 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_buttons.scss',
+117 silly gunzTarPerm   438,
+117 silly gunzTarPerm   420 ]
+118 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_clearing.scss
+119 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_clearing.scss',
+119 silly gunzTarPerm   438,
+119 silly gunzTarPerm   420 ]
+120 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_custom-forms.scss
+121 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_custom-forms.scss',
+121 silly gunzTarPerm   438,
+121 silly gunzTarPerm   420 ]
+122 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_dropdown-buttons.scss
+123 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_dropdown-buttons.scss',
+123 silly gunzTarPerm   438,
+123 silly gunzTarPerm   420 ]
+124 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_dropdown.scss
+125 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_dropdown.scss',
+125 silly gunzTarPerm   438,
+125 silly gunzTarPerm   420 ]
+126 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_flex-video.scss
+127 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_flex-video.scss',
+127 silly gunzTarPerm   438,
+127 silly gunzTarPerm   420 ]
+128 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_forms.scss
+129 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_forms.scss',
+129 silly gunzTarPerm   438,
+129 silly gunzTarPerm   420 ]
+130 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_global.scss
+131 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_global.scss',
+131 silly gunzTarPerm   438,
+131 silly gunzTarPerm   420 ]
+132 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_grid-5.scss
+133 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_grid-5.scss',
+133 silly gunzTarPerm   438,
+133 silly gunzTarPerm   420 ]
+134 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_grid.scss
+135 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_grid.scss',
+135 silly gunzTarPerm   438,
+135 silly gunzTarPerm   420 ]
+136 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_inline-lists.scss
+137 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_inline-lists.scss',
+137 silly gunzTarPerm   438,
+137 silly gunzTarPerm   420 ]
+138 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_joyride.scss
+139 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_joyride.scss',
+139 silly gunzTarPerm   438,
+139 silly gunzTarPerm   420 ]
+140 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_keystrokes.scss
+141 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_keystrokes.scss',
+141 silly gunzTarPerm   438,
+141 silly gunzTarPerm   420 ]
+142 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_labels.scss
+143 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_labels.scss',
+143 silly gunzTarPerm   438,
+143 silly gunzTarPerm   420 ]
+144 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_block-grid.scss
+145 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_block-grid.scss',
+145 silly gunzTarPerm   438,
+145 silly gunzTarPerm   420 ]
+146 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_orbit.scss
+147 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_orbit.scss',
+147 silly gunzTarPerm   438,
+147 silly gunzTarPerm   420 ]
+148 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_pagination.scss
+149 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_pagination.scss',
+149 silly gunzTarPerm   438,
+149 silly gunzTarPerm   420 ]
+150 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_panels.scss
+151 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_panels.scss',
+151 silly gunzTarPerm   438,
+151 silly gunzTarPerm   420 ]
+152 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_pricing-tables.scss
+153 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_pricing-tables.scss',
+153 silly gunzTarPerm   438,
+153 silly gunzTarPerm   420 ]
+154 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_progress-bars.scss
+155 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_progress-bars.scss',
+155 silly gunzTarPerm   438,
+155 silly gunzTarPerm   420 ]
+156 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_reveal.scss
+157 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_reveal.scss',
+157 silly gunzTarPerm   438,
+157 silly gunzTarPerm   420 ]
+158 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_section.scss
+159 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_section.scss',
+159 silly gunzTarPerm   438,
+159 silly gunzTarPerm   420 ]
+160 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_side-nav.scss
+161 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_side-nav.scss',
+161 silly gunzTarPerm   438,
+161 silly gunzTarPerm   420 ]
+162 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_split-buttons.scss
+163 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_split-buttons.scss',
+163 silly gunzTarPerm   438,
+163 silly gunzTarPerm   420 ]
+164 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_sub-nav.scss
+165 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_sub-nav.scss',
+165 silly gunzTarPerm   438,
+165 silly gunzTarPerm   420 ]
+166 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_switch.scss
+167 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_switch.scss',
+167 silly gunzTarPerm   438,
+167 silly gunzTarPerm   420 ]
+168 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_tables.scss
+169 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_tables.scss',
+169 silly gunzTarPerm   438,
+169 silly gunzTarPerm   420 ]
+170 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_thumbs.scss
+171 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_thumbs.scss',
+171 silly gunzTarPerm   438,
+171 silly gunzTarPerm   420 ]
+172 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_tooltips.scss
+173 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_tooltips.scss',
+173 silly gunzTarPerm   438,
+173 silly gunzTarPerm   420 ]
+174 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_top-bar.scss
+175 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_top-bar.scss',
+175 silly gunzTarPerm   438,
+175 silly gunzTarPerm   420 ]
+176 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_type.scss
+177 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_type.scss',
+177 silly gunzTarPerm   438,
+177 silly gunzTarPerm   420 ]
+178 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_visibility.scss
+179 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/components/_visibility.scss',
+179 silly gunzTarPerm   438,
+179 silly gunzTarPerm   420 ]
+180 silly gunzTarPerm extractEntry client/stylesheets/foundation/_variables.scss
+181 silly gunzTarPerm modified mode [ 'client/stylesheets/foundation/_variables.scss', 438, 420 ]
+182 silly gunzTarPerm extractEntry client/stylesheets/main.scss
+183 silly gunzTarPerm modified mode [ 'client/stylesheets/main.scss', 438, 420 ]
+184 silly gunzTarPerm extractEntry client/stylesheets/normalize.scss
+185 silly gunzTarPerm modified mode [ 'client/stylesheets/normalize.scss', 438, 420 ]
+186 silly gunzTarPerm extractEntry client/stylesheets/_foundation.scss
+187 silly gunzTarPerm modified mode [ 'client/stylesheets/_foundation.scss', 438, 420 ]
+188 silly gunzTarPerm extractEntry client/stylesheets/_helpers.scss
+189 silly gunzTarPerm modified mode [ 'client/stylesheets/_helpers.scss', 438, 420 ]
+190 silly gunzTarPerm extractEntry client/subscriptions/dummyCollection.js
+191 silly gunzTarPerm modified mode [ 'client/subscriptions/dummyCollection.js', 438, 420 ]
+192 silly gunzTarPerm extractEntry client/views/common/footer.html
+193 silly gunzTarPerm modified mode [ 'client/views/common/footer.html', 438, 420 ]
+194 silly gunzTarPerm extractEntry client/views/common/head.html
+195 silly gunzTarPerm modified mode [ 'client/views/common/head.html', 438, 420 ]
+196 silly gunzTarPerm extractEntry client/views/home/home.js
+197 silly gunzTarPerm modified mode [ 'client/views/home/home.js', 438, 420 ]
+198 silly gunzTarPerm extractEntry client/views/home/home.css
+199 silly gunzTarPerm modified mode [ 'client/views/home/home.css', 438, 420 ]
+200 silly gunzTarPerm extractEntry client/views/home/home.html
+201 silly gunzTarPerm modified mode [ 'client/views/home/home.html', 438, 420 ]
+202 silly gunzTarPerm extractEntry client/views/layouts/basic.html
+203 silly gunzTarPerm modified mode [ 'client/views/layouts/basic.html', 438, 420 ]
+204 silly gunzTarPerm extractEntry client/views/layouts/slim.html
+205 silly gunzTarPerm modified mode [ 'client/views/layouts/slim.html', 438, 420 ]
+206 silly gunzTarPerm extractEntry client/views/notFound/notFound.js
+207 silly gunzTarPerm modified mode [ 'client/views/notFound/notFound.js', 438, 420 ]
+208 silly gunzTarPerm extractEntry client/views/notFound/notFound.css
+209 silly gunzTarPerm modified mode [ 'client/views/notFound/notFound.css', 438, 420 ]
+210 silly gunzTarPerm extractEntry client/views/notFound/notFound.html
+211 silly gunzTarPerm modified mode [ 'client/views/notFound/notFound.html', 438, 420 ]
+212 silly gunzTarPerm extractEntry server/fixtures/dummyFixture.js
+213 silly gunzTarPerm modified mode [ 'server/fixtures/dummyFixture.js', 438, 420 ]
+214 silly gunzTarPerm extractEntry server/lib/yaml.min.js
+215 silly gunzTarPerm modified mode [ 'server/lib/yaml.min.js', 438, 420 ]
+216 silly gunzTarPerm extractEntry server/publications/dummyCollection.js
+217 silly gunzTarPerm modified mode [ 'server/publications/dummyCollection.js', 438, 420 ]
+218 silly gunzTarPerm extractEntry server/startup/loadFixtures.js
+219 silly gunzTarPerm modified mode [ 'server/startup/loadFixtures.js', 438, 420 ]
+220 silly gunzTarPerm extractEntry server/startup/loadUsers.js
+221 silly gunzTarPerm modified mode [ 'server/startup/loadUsers.js', 438, 420 ]
+222 silly gunzTarPerm extractEntry test/test-creation.js
+223 silly gunzTarPerm modified mode [ 'test/test-creation.js', 438, 420 ]
+224 silly gunzTarPerm extractEntry test/test-load.js
+225 silly gunzTarPerm modified mode [ 'test/test-load.js', 438, 420 ]
+226 silly gunzTarPerm extractEntry tests/dummyTest.js
+227 silly gunzTarPerm modified mode [ 'tests/dummyTest.js', 438, 420 ]
+228 silly lockFile 6e78c4a6-92534-0-7984758436214179-package tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/package
+229 silly lockFile 6e78c4a6-92534-0-7984758436214179-package tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/package
+230 silly lockFile c25726fe-92534-0-7984758436214179-tmp-tgz tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/tmp.tgz
+231 silly lockFile c25726fe-92534-0-7984758436214179-tmp-tgz tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/tmp.tgz
+232 verbose tar pack [ '/Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz',
+232 verbose tar pack   '/var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/package' ]
+233 verbose tarball /Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz
+234 verbose folder /var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/package
+235 silly lockFile 6e78c4a6-92534-0-7984758436214179-package tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/package
+236 verbose lock tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/package /Users/gbr/.npm/6e78c4a6-92534-0-7984758436214179-package.lock
+237 silly lockFile 79b1c679--yeoman-meteor-0-0-5-package-tgz tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz
+238 verbose lock tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz /Users/gbr/.npm/79b1c679--yeoman-meteor-0-0-5-package-tgz.lock
+239 silly lockFile 6e78c4a6-92534-0-7984758436214179-package tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/package
+240 silly lockFile 6e78c4a6-92534-0-7984758436214179-package tar:///var/folders/mp/1mm93y_d4yjb65r8n251cgfm0000gn/T/npm-30376-t-JWWUC3/1396489092534-0.7984758436214179/package
+241 silly lockFile 79b1c679--yeoman-meteor-0-0-5-package-tgz tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz
+242 silly lockFile 79b1c679--yeoman-meteor-0-0-5-package-tgz tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz
+243 silly lockFile f47607a8--npm-yeoman-meteor-0-0-5-package /Users/gbr/.npm/yeoman-meteor/0.0.5/package
+244 verbose lock /Users/gbr/.npm/yeoman-meteor/0.0.5/package /Users/gbr/.npm/f47607a8--npm-yeoman-meteor-0-0-5-package.lock
+245 silly lockFile f47607a8--npm-yeoman-meteor-0-0-5-package /Users/gbr/.npm/yeoman-meteor/0.0.5/package
+246 silly lockFile f47607a8--npm-yeoman-meteor-0-0-5-package /Users/gbr/.npm/yeoman-meteor/0.0.5/package
+247 verbose tar unpack /Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz
+248 silly lockFile 08ff3344--npm-yeoman-meteor-0-0-5-package tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package
+249 verbose lock tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package /Users/gbr/.npm/08ff3344--npm-yeoman-meteor-0-0-5-package.lock
+250 silly lockFile 79b1c679--yeoman-meteor-0-0-5-package-tgz tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz
+251 verbose lock tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz /Users/gbr/.npm/79b1c679--yeoman-meteor-0-0-5-package-tgz.lock
+252 silly gunzTarPerm modes [ '755', '644' ]
+253 silly gunzTarPerm extractEntry package.json
+254 silly gunzTarPerm extractEntry .npmignore
+255 silly gunzTarPerm extractEntry README.md
+256 silly gunzTarPerm extractEntry LICENSE
+257 silly gunzTarPerm extractEntry model/index.js
+258 silly gunzTarPerm extractEntry model/templates/_dummyCollection.js
+259 silly gunzTarPerm extractEntry model/templates/_dummyModel.js
+260 silly gunzTarPerm extractEntry model/templates/_dummyPublication.js
+261 silly gunzTarPerm extractEntry model/templates/_dummySubscribtion.js
+262 silly gunzTarPerm extractEntry model/templates/default.js
+263 silly gunzTarPerm extractEntry client/compatibility/default.js
+264 silly gunzTarPerm extractEntry client/config/accounts.js
+265 silly gunzTarPerm extractEntry client/config/router.js
+266 silly gunzTarPerm extractEntry client/lib/handlebar_helpers.js
+267 silly gunzTarPerm extractEntry client/modules/searchbar/searchbar.js
+268 silly gunzTarPerm extractEntry client/modules/searchbar/searchbar.css
+269 silly gunzTarPerm extractEntry client/modules/searchbar/searchbar.html
+270 silly gunzTarPerm extractEntry client/routes/HomeRoute.js
+271 silly gunzTarPerm extractEntry client/startup/default.js
+272 silly gunzTarPerm extractEntry client/stylesheets/_foundation.scss
+273 silly gunzTarPerm extractEntry client/stylesheets/_helpers.scss
+274 silly gunzTarPerm extractEntry client/stylesheets/foundation/_variables.scss
+275 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_magellan.scss
+276 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_alert-boxes.scss
+277 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_breadcrumbs.scss
+278 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_button-groups.scss
+279 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_buttons.scss
+280 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_clearing.scss
+281 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_custom-forms.scss
+282 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_dropdown-buttons.scss
+283 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_dropdown.scss
+284 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_flex-video.scss
+285 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_forms.scss
+286 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_global.scss
+287 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_grid-5.scss
+288 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_grid.scss
+289 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_inline-lists.scss
+290 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_joyride.scss
+291 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_keystrokes.scss
+292 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_labels.scss
+293 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_block-grid.scss
+294 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_orbit.scss
+295 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_pagination.scss
+296 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_panels.scss
+297 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_pricing-tables.scss
+298 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_progress-bars.scss
+299 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_reveal.scss
+300 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_section.scss
+301 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_side-nav.scss
+302 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_split-buttons.scss
+303 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_sub-nav.scss
+304 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_switch.scss
+305 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_tables.scss
+306 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_thumbs.scss
+307 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_tooltips.scss
+308 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_top-bar.scss
+309 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_type.scss
+310 silly gunzTarPerm extractEntry client/stylesheets/foundation/components/_visibility.scss
+311 silly gunzTarPerm extractEntry client/stylesheets/main.scss
+312 silly gunzTarPerm extractEntry client/stylesheets/normalize.scss
+313 silly gunzTarPerm extractEntry client/subscriptions/dummyCollection.js
+314 silly gunzTarPerm extractEntry client/views/common/footer.html
+315 silly gunzTarPerm extractEntry client/views/common/head.html
+316 silly gunzTarPerm extractEntry client/views/home/home.js
+317 silly gunzTarPerm extractEntry client/views/home/home.css
+318 silly gunzTarPerm extractEntry client/views/home/home.html
+319 silly gunzTarPerm extractEntry client/views/layouts/basic.html
+320 silly gunzTarPerm extractEntry client/views/layouts/slim.html
+321 silly gunzTarPerm extractEntry client/views/notFound/notFound.js
+322 silly gunzTarPerm extractEntry client/views/notFound/notFound.css
+323 silly gunzTarPerm extractEntry client/views/notFound/notFound.html
+324 silly gunzTarPerm extractEntry .meteor/.npmignore
+325 silly gunzTarPerm extractEntry .meteor/packages
+326 silly gunzTarPerm extractEntry .meteor/release
+327 silly gunzTarPerm extractEntry app/index.js
+328 silly gunzTarPerm extractEntry app/templates/_bower.json
+329 silly gunzTarPerm extractEntry app/templates/_package.json
+330 silly gunzTarPerm extractEntry app/templates/_smart.json
+331 silly gunzTarPerm extractEntry app/templates/bowerrc
+332 silly gunzTarPerm extractEntry app/templates/config.rb
+333 silly gunzTarPerm extractEntry app/templates/gitattributes
+334 silly gunzTarPerm extractEntry app/templates/gitignore
+335 silly gunzTarPerm extractEntry app/templates/jshintrc
+336 silly gunzTarPerm extractEntry app/templates/smart.lock
+337 silly gunzTarPerm extractEntry private/users.yml
+338 silly gunzTarPerm extractEntry server/fixtures/dummyFixture.js
+339 silly gunzTarPerm extractEntry server/lib/yaml.min.js
+340 silly gunzTarPerm extractEntry server/publications/dummyCollection.js
+341 silly gunzTarPerm extractEntry server/startup/loadFixtures.js
+342 silly gunzTarPerm extractEntry server/startup/loadUsers.js
+343 silly gunzTarPerm extractEntry test/test-creation.js
+344 silly gunzTarPerm extractEntry test/test-load.js
+345 silly gunzTarPerm extractEntry tests/dummyTest.js
+346 silly lockFile 08ff3344--npm-yeoman-meteor-0-0-5-package tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package
+347 silly lockFile 08ff3344--npm-yeoman-meteor-0-0-5-package tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package
+348 silly lockFile 79b1c679--yeoman-meteor-0-0-5-package-tgz tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz
+349 silly lockFile 79b1c679--yeoman-meteor-0-0-5-package-tgz tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz
+350 verbose chmod /Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz 644
+351 verbose chown /Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz [ 501, 20 ]
+352 silly lockFile 8fa07657-n-meteor-yeoman-meteor-0-0-5-tgz https://registry.npmjs.org/yeoman-meteor/-/yeoman-meteor-0.0.5.tgz
+353 silly lockFile 8fa07657-n-meteor-yeoman-meteor-0-0-5-tgz https://registry.npmjs.org/yeoman-meteor/-/yeoman-meteor-0.0.5.tgz
+354 silly lockFile dc932a3b-yeoman-meteor-0-0-5 yeoman-meteor@0.0.5
+355 silly lockFile dc932a3b-yeoman-meteor-0-0-5 yeoman-meteor@0.0.5
+356 silly lockFile 4773bc8a-yeoman-meteor yeoman-meteor@
+357 silly lockFile 4773bc8a-yeoman-meteor yeoman-meteor@
+358 silly resolved [ { name: 'yeoman-meteor',
+358 silly resolved     version: '0.0.5',
+358 silly resolved     description: 'A structured yeoman generator for meteor apps with basic scaffolding per subgenerators',
+358 silly resolved     keywords:
+358 silly resolved      [ 'yeoman-generator',
+358 silly resolved        'meteor',
+358 silly resolved        'subgenerators',
+358 silly resolved        'scaffolding',
+358 silly resolved        'sass',
+358 silly resolved        'foundation' ],
+358 silly resolved     homepage: 'https://github.com/DoubleU23/generator-meteor',
+358 silly resolved     bugs: { url: 'https://github.com/DoubleU23/generator-meteor/issues' },
+358 silly resolved     author: { name: 'doubleu23', url: 'https://github.com/DoubleU23' },
+358 silly resolved     main: 'app/index.js',
+358 silly resolved     repository:
+358 silly resolved      { type: 'git',
+358 silly resolved        url: 'git://github.com/DoubleU23/generator-meteor.git' },
+358 silly resolved     scripts: { test: 'mocha' },
+358 silly resolved     dependencies:
+358 silly resolved      { 'yeoman-generator': '~0.14.0',
+358 silly resolved        'fs-extra': '~0.8.1',
+358 silly resolved        wrench: '~1.5.6' },
+358 silly resolved     devDependencies: { mocha: '~1.14.0' },
+358 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+358 silly resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+358 silly resolved     readme: '# generator-meteor [![Build Status](https://secure.travis-ci.org/DoubleU23/generator-meteor.png?branch=master)](https://travis-ci.org/DoubleU23/generator-meteor)\n\nA generator for [Yeoman](http://yeoman.io).\n\n\n## Getting Started\n\n### What is Yeoman?\n\nTrick question. It\'s not a thing. It\'s this guy:\n\n![](http://i.imgur.com/JHaAlBJ.png)\n\nBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\n\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\n\n```\n$ npm install -g yo\n```\n\n### Yeoman Generators\n\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\n\nTo install generator-meteor from npm, run:\n\n```\n$ npm install -g generator-meteor\n```\n\nFinally, initiate the generator:\n\n```\n$ yo meteor\n```\n\n### Getting To Know Yeoman\n\nYeoman has a heart of gold. He\'s a person with feelings and opinions, but he\'s very easy to work with. If you think he\'s too opinionated, he can be easily convinced.\n\nIf you\'d like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\n\n\n## License\n\n[MIT License](http://en.wikipedia.org/wiki/MIT_License)\n',
+358 silly resolved     readmeFilename: 'README.md',
+358 silly resolved     _id: 'yeoman-meteor@0.0.5',
+358 silly resolved     dist: { shasum: 'cadccb06dc4445da381a640cfbe46f92aacdf4f8' },
+358 silly resolved     _from: 'yeoman-meteor@',
+358 silly resolved     _resolved: 'https://registry.npmjs.org/yeoman-meteor/-/yeoman-meteor-0.0.5.tgz' } ]
+359 info install yeoman-meteor@0.0.5 into /usr/local/lib
+360 info installOne yeoman-meteor@0.0.5
+361 info /usr/local/lib/node_modules/yeoman-meteor unbuild
+362 verbose tar unpack /Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz
+363 silly lockFile de9e06be-l-lib-node-modules-yeoman-meteor tar:///usr/local/lib/node_modules/yeoman-meteor
+364 verbose lock tar:///usr/local/lib/node_modules/yeoman-meteor /Users/gbr/.npm/de9e06be-l-lib-node-modules-yeoman-meteor.lock
+365 silly lockFile 79b1c679--yeoman-meteor-0-0-5-package-tgz tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz
+366 verbose lock tar:///Users/gbr/.npm/yeoman-meteor/0.0.5/package.tgz /Users/gbr/.npm/79b1c679--yeoman-meteor-0-0-5-package-tgz.lock
+367 silly gunzTarPerm modes [ '755', '644' ]
+368 error Error: EACCES, mkdir '/usr/local/lib/node_modules/yeoman-meteor'
+368 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/yeoman-meteor']
+368 error   errno: 3,
+368 error   code: 'EACCES',
+368 error   path: '/usr/local/lib/node_modules/yeoman-meteor',
+368 error   fstream_type: 'Directory',
+368 error   fstream_path: '/usr/local/lib/node_modules/yeoman-meteor',
+368 error   fstream_class: 'DirWriter',
+368 error   fstream_stack:
+368 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+368 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+368 error      'Object.oncomplete (fs.js:107:15)' ] }
+369 error Please try running this command again as root/Administrator.
+370 error System Darwin 13.1.0
+371 error command "node" "/usr/local/bin/npm" "install" "-g" "yeoman-meteor"
+372 error cwd /Users/gbr/Nitrous/harrenhal-nodejs/meteor-siga
+373 error node -v v0.10.26
+374 error npm -v 1.4.3
+375 error path /usr/local/lib/node_modules/yeoman-meteor
+376 error fstream_path /usr/local/lib/node_modules/yeoman-meteor
+377 error fstream_type Directory
+378 error fstream_class DirWriter
+379 error code EACCES
+380 error errno 3
+381 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/yeoman-meteor'
+382 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+382 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+382 error fstream_stack Object.oncomplete (fs.js:107:15)
+383 verbose exit [ 3, true ]

@@ -1,6 +1,3 @@
-[submodule "packages/meteor-stealer-ufrj"]
-	path = packages/meteor-stealer-ufrj
-	url = https://gbr@bitbucket.org/gbr/meteor-stealer-ufrj.git
 [submodule "packages/stealer-ufrj"]
 	path = packages/stealer-ufrj
 	url = https://github.com/gabrielalmeida/stealer-ufrj

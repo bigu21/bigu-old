@@ -1,2 +1,3 @@
-/.meteor
 /packages
+.DS_STORE
+smart.lock

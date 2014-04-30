@@ -1,6 +1,6 @@
-if Meteor.isClient
-  Template.soon.greeting = ->
-    "Welcome to dynamoshop"
+#if Meteor.isClient
+  #Template.soon.greeting = ->
+    #"Welcome to dynamoshop"
 
 
 # if (Meteor.isClient) {

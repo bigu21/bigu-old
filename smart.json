@@ -3,6 +3,15 @@
   "packages": {
     "jade": {},
     "iron-router": {},
-    "npm": {}
+    "npm": {},
+    "reachable": {
+        "git": "https://github.com/gabrielalmeida/reachable"
+    },
+    "stealer-ufrj": {
+        "git": "https://github.com/gabrielalmeida/stealer-ufrj"
+    },
+    "stealer-uff": {
+        "git": "https://github.com/gabrielalmeida/stealer-uff"
+    }
   }
 }

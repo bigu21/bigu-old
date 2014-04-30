@@ -1,5 +1,6 @@
-/npm
+/
 /jade
 /iron-router
 /blaze-layout
 .DS_Store
+/http-more

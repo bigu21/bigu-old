@@ -7,7 +7,12 @@ standard-app-packages
 autopublish
 insecure
 coffeescript
+underscore
 stylus
 jade
 iron-router
 npm
+http-more
+stealer-ufrj
+#stealer-uff
+reachable

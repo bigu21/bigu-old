@@ -1,17 +1,17 @@
 {
-  "meteor": {},
-  "packages": {
-    "jade": {},
-    "iron-router": {},
-    "npm": {},
-    "reachable": {
-        "git": "https://github.com/gabrielalmeida/reachable"
-    },
-    "stealer-ufrj": {
-        "git": "https://github.com/gabrielalmeida/stealer-ufrj"
-    },
-    "stealer-uff": {
-        "git": "https://github.com/gabrielalmeida/stealer-uff"
-    }
-  }
+    "meteor": {},
+    "packages": {
+        "jade": {},
+        "iron-router": {},
+        "npm": {},
+        "reachable": {
+            "git": "https://github.com/bigu21/reachable"
+        },
+        "stealer-ufrj": {
+            "git": "https://github.com/bigu21/stealer-ufrj"
+        },
+        "stealer-uff": {
+            "git": "https://github.com/bigu21/stealer-uff"
+        }
+     }
 }

@@ -1,7 +1,12 @@
 Router.map(function() {
-    this.route('stealer-ufrj', {
+    this.route('login', {
         path: '/',
-        template: 'stealer-ufrj'
-    })
+        template: 'login'
+    });
+
+    this.route('messages', {
+      path: '/messages',
+      template: 'messages'
+    });
 });
 

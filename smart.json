@@ -1,17 +1,16 @@
 {
-    "meteor": {},
-    "packages": {
-        "jade": {},
-        "iron-router": {},
-        "npm": {},
-        "reachable": {
-            "git": "https://github.com/bigu21/reachable"
-        },
-        "stealer-ufrj": {
-            "git": "https://github.com/bigu21/stealer-ufrj"
-        },
-        "stealer-uff": {
-            "git": "https://github.com/bigu21/stealer-uff"
-        }
-     }
+  "meteor": {},
+  "packages": {
+    "jade": {},
+    "iron-router": {},
+    "npm": {},
+    "stealer-ufrj": {
+      "git": "https://github.com/bigu21/stealer-ufrj"
+    },
+    "stealer-uff": {
+      "git": "https://github.com/bigu21/stealer-uff"
+    },
+    "semantic-ui": {},
+    "accounts-entry": {}
+  }
 }

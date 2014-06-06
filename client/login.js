@@ -16,8 +16,6 @@ Template.login.events({
   }
 });
 
-Template.login.rendered = function() {
-};
 
  //var res =  Meteor.call('ufrjCep', {
     //form: {

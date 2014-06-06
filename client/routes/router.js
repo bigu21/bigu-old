@@ -8,5 +8,10 @@ Router.map(function() {
       path: '/messages',
       template: 'messages'
     });
+
+    this.route('profile', {
+      path: '/profile',
+      template: 'profile'
+    });
 });
 

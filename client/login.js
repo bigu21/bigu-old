@@ -17,12 +17,9 @@ Template.login.events({
 });
 
 Template.login.rendered = function() {
-  alert("non-steroid");
-  steroids.on('ready', function() {
-    alert("steroid");
-    steroids.statusBar.show();
-    steroids.navigationBar.hide();
-  });
+  alert(steroids);
+  steroids.statusBar.show();
+  steroids.navigationBar.hide();
 };
 
  //var res =  Meteor.call('ufrjCep', {

@@ -1,0 +1,31 @@
+template(name="login")
+  head
+    title Login Bigu21
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0")
+  body
+    div.ui.column.grid
+      div.column
+        div#login.ui.fluid.labeled.facebook.icon.button.computer.only
+          i.icon.facebook
+          | Logar com Facebook 
+
+
+template(name="userLogin")
+
+
+template(name="user_info")
+  if currentUser
+    +userLoggedIn
+  else
+    +userLoggedOut
+
+template(name="userLoggedIn")
+  if loggingIn
+    | Fazendo Login
+  else
+    | #{currentUser.profile.name}
+
+template(name="userLoggedOut")
+   div#login Não Logado
+

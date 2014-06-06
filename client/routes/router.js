@@ -1,6 +1,6 @@
 Router.map(function() {
     this.route('login', {
-        path: '/',
+        path: '/login',
         template: 'login'
     });
 

@@ -17,6 +17,7 @@ stealer-ufrj
 #stealer-uff
 reachable
 semantic-ui
-accounts-entry
 accounts-facebook
 accounts-ui
+accounts-base
+service-configuration

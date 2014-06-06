@@ -1,0 +1,34 @@
+template(name="messages")
+  head
+    title Bigu21
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0")
+  body
+    div.ui.column.grid
+        div.column 
+          div.ui.piled.blue.segment
+            h2.ui.header
+              i.icon.inverted.circular.blue.comment
+              | Comments
+            div.ui.comments
+               div.comment
+                a.avatar
+                  img(src='http://semantic-ui.com/images/demo/avatar.jpg')
+                div.content
+                  a.author Teste
+                  div.metadata
+                      span.date 2 dias atras
+                  div.text
+                    | Testando o texto
+                  div.actions
+                    //-a.reply Reply
+                    //-a.delete Delete
+           form.ui.reply.form
+              div.field
+                input(type="text")
+              div.ui.fluid.blue.labeled.submit.icon.button.computer.only
+                i.icon.edit 
+                | Responder 
+
+
+

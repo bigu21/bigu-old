@@ -1,4 +1,4 @@
-Template.userLoggedOut.events({
+Template.login.events({
   "click #login": function (e, tmpl) {
    Meteor.loginWithFacebook({
      requestPermission: [ 
@@ -19,6 +19,7 @@ Template.userLoggedOut.events({
 Template.login.rendered = function() {
   if(steroids) {
     steroids.on('ready', function() {
+      alert(steroids);
       steroids.statusBar.show();
       steroids.navigationBar.hide();
     });

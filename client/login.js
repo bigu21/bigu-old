@@ -17,9 +17,6 @@ Template.login.events({
 });
 
 Template.login.rendered = function() {
-  alert(steroids);
-  steroids.statusBar.show();
-  steroids.navigationBar.hide();
 };
 
  //var res =  Meteor.call('ufrjCep', {

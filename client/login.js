@@ -18,13 +18,11 @@ Template.login.events({
 
 Template.login.rendered = function() {
   alert("non-steroid");
-  if(steroids) {
-    steroids.on('ready', function() {
-      alert("steroid");
-      steroids.statusBar.show();
-      steroids.navigationBar.hide();
-    });
-  }
+  steroids.on('ready', function() {
+    alert("steroid");
+    steroids.statusBar.show();
+    steroids.navigationBar.hide();
+  });
 };
 
  //var res =  Meteor.call('ufrjCep', {

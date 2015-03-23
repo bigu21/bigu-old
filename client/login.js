@@ -19,8 +19,8 @@ Template.login.events({
 
  //var res =  Meteor.call('ufrjCep', {
     //form: {
-      //usuario: '***REMOVED***',
-      //senha: '*****',
+      //usuario: '**REMOVED**',
+      //senha: '**REMOVED**'
       //PessoanextCard: 'PessoanextCard',
       //NacionalidadenextCard: 'NacionalidadenextCard'
     //}
